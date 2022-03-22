@@ -1,5 +1,5 @@
 {
-  description = ''A string formatting library inspired by Python's `format`.'';
+  description = ''A string formatting library inspired by Python's `format`'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-strfmt-master.flake = false;
   inputs.src-strfmt-master.owner = "bio-nim";
-  inputs.src-strfmt-master.ref   = "refs/heads/master";
+  inputs.src-strfmt-master.ref   = "master";
   inputs.src-strfmt-master.repo  = "nim-strfmt";
   inputs.src-strfmt-master.type  = "github";
   
